@@ -2,30 +2,35 @@
 
 Here, i  create rest api with authentication using passport in laravel 6 application .
 
-Install Dependencies : 
+1 -Install Dependencies : 
                                  composer install
+                                 
+                                 
+2-Configure the Environment  :
 
-First , we need to install passport via the Composer package manager :
- 
-                                composer require laravel/passport
+Create .env file:
+
+                                $ cat .env.example > .env
+                                
+                                
+                                
+                                               
                 
-                
- Next, we need to install passport using command, Using passport:install command, it will create token keys for security : 
+ 3- Next, we need to install passport using command, Using passport:install command, it will create token keys for security : 
  
  
                                 php artisan passport:install
                 
                 
-Configure the Environment  :
 
-Create .env file:
+4- Run                          
+                                php artisan key:generate
+5- Run 
+                                php artisan migrate --seed
 
-                                $ cat .env.example > .env
 
 
-Migrate and Seed the Database :
-                                
-                                $ php artisan migrate:fresh --seed
+
  
  
  
