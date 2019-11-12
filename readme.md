@@ -28,13 +28,6 @@ Create .env file:
 5- Run 
                                 php artisan migrate --seed
 
-
-
-
- 
- 
- 
- 
  Route Api Endpoint : 
  
 
