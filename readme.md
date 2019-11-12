@@ -25,6 +25,8 @@ Create .env file:
 
 4- Run                          
                                 php artisan key:generate
+
+
 5- Run 
                                 php artisan migrate --seed
 
