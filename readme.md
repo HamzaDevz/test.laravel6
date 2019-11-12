@@ -15,20 +15,23 @@ Create .env file:
                                 
                                 
                                                
-                
- 3- Next, we need to install passport using command, Using passport:install command, it will create token keys for security : 
+ 3- Run   
+ 
+ 
+                                php artisan key:generate
+
+
+4- Run 
+
+                                php artisan migrate --seed               
+5- Next, we need to install passport using command, Using passport:install command, it will create token keys for security : 
  
  
                                 php artisan passport:install
                 
                 
 
-4- Run                          
-                                php artisan key:generate
 
-
-5- Run 
-                                php artisan migrate --seed
 
  Route Api Endpoint : 
  
