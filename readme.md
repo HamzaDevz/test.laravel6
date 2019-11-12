@@ -32,7 +32,7 @@ Migrate and Seed the Database :
  
  Route Api Endpoint : 
  
-Verb	        URI	Controller	                                Notes
+
 POST	http://localhost:8000/api/auth/login	        login and get your access token
 
 POST	http://localhost:8000/api/auth/register	        create a new user into your application
